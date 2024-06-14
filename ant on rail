@@ -1,0 +1,10 @@
+#ant on rail
+N=int(input("enter the no of moves"))
+A=list(map(int,input().split()))
+sp=0
+ans=0
+for i in A:
+    sp=sp+i
+    if sp==0:
+        ans=ans+1
+print(ans)
