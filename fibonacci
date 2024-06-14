@@ -1,0 +1,20 @@
+#fibonacci
+num=int(input("Enter the no of terms:"))
+a=0
+b=1
+c=a+b
+if num==1:
+    print(a)
+
+elif num==2:
+    print(a)
+    print(b)
+else:
+    print(a)
+    print(b)
+    for i in range(2,num):
+        print(c)
+        a=b
+        b=c
+        c=a+b
+        
